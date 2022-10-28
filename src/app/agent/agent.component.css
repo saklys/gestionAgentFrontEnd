@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(254, 252, 252);
+    margin-top:20px;
+}
+
+.text-color{
+    color: rgb(5, 58, 89);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border-radius: .25rem;
+    margin-bottom: 1.5rem;
+    box-shadow:0 2px 3px 0px rgb(191, 186, 186);
+}
+
+.total-agents-color{
+    color: rgb(0, 107, 180);
+}
+
+.active-agents-color{
+    color: rgb(0, 120, 113);
+}
+.disconnected-agents-color{
+    color:  rgb(189, 39, 30);
+}
+.pending-agents-color{
+    color:  rgb(254, 197, 20);
+}
+.never-connected-agents-color{
+    color:rgb(100, 106, 119);
+}
+

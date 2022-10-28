@@ -1,0 +1,55 @@
+<div class="container py-5  ">
+    <div class="row mb-4 text-color">
+      <div class="col-lg-5">
+        <p class="font-italic ">Hello admin </p>
+            <p class="mt-2">View the status of your agents and the evolution of their latest alerts</p>
+      </div>
+      <h4 class="mt-5">Installed agents by their status</h4>
+    </div>
+    
+    <div class="row row-cols-1 row-cols-xl-2 row-cols-xl-5">
+        <div class="col">
+            <div class="card ">
+                <div class="text-center">
+                        <p class="mb-2 mt-5 text-color" >Total agents</p>
+                        <h3 class="mb-5 mt-3 total-agents-color">{{agents.length}}</h3>  
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class=" text-center">
+                        <p class="mb-2 mt-5 text-color">Active agents</p>
+                        <h3 class="mb-5 mt-3 active-agents-color">{{count[0]}}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class=" text-center">
+                        <p class="mb-2 mt-5 text-color">Disconnected agents</p> 
+                        <h3 class="mb-5 mt-3 disconnected-agents-color">{{count[1]}}</h3>      
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class=" text-center">
+                        <p class="mb-2 mt-5 text-color">Pending agents</p>
+                        <h3 class="mb-5 mt-3 pending-agents-color">{{count[2]}}</h3>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card ">
+                <div class="text-center">
+                        <p class="mb-2 mt-5 text-color">Never connected agents</p>
+                        <h3 class="mb-5 mt-3 never-connected-agents-color">{{count[3]}}</h3>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+  </div>
